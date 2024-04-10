@@ -1,9 +1,11 @@
+import '../styles/FooterStyle.css'
+
 function Footer() {
 
     return (
         <footer>
-            <section>
-                <p>esdras12thiago@gmail.com</p>
+            <section className='footer-email'>
+                <p className='header-name'>esdras12thiago@gmail.com</p>
                 <p>Redes</p>
             </section>
             <section>
@@ -14,7 +16,7 @@ function Footer() {
                     }
                 </section>
             </section>
-            <p>Copyright 2024. Made by Esdras</p>
+            <p className='footer-copyright'>Copyright 2024. Made by Esdras</p>
         </footer>
     );
 }

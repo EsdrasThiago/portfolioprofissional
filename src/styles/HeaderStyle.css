@@ -1,0 +1,48 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85vw;
+    margin: auto;
+}
+
+.header-name {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.header-links {
+    display: flex;
+}
+
+.header-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 20px;
+}
+
+.header-unselected-link {
+    color: gray;
+    margin-right: 30px;
+    margin-top: 13px;
+}
+
+.header-selected-link {
+    margin-right: 30px;
+    margin-top: 13px;
+    animation-name: select-animation;
+    animation-fill-mode: both;
+    animation-duration: 1s;
+}
+
+@keyframes select-animation {
+    from {
+        color: gray;
+    }
+
+    to {
+        color: white;
+        font-size: 18px;
+    }
+}
