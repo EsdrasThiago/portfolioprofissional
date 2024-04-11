@@ -1,0 +1,44 @@
+.main-home {
+    width: 80vw;
+    margin: auto;
+}
+
+.home-title {
+    margin-top: 150px;
+    font-size: 60px;
+    width: 800px;
+    margin-bottom: 50px;
+}
+
+.home-description {
+    color: gray;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.home-geek-text {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: solid 1px #868686;
+    height: 50px;
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.home-reigen-phrase {
+    position: absolute;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.home-reigen {
+    position: relative;
+    text-align: center;
+    top: 35px;
+    left: 75px;
+    font-size: 15px;
+    width: 150px;
+    border: solid 1px #868686;
+}

@@ -1,34 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 
 body {
-    background-color: #282C33;
-    margin: 0px;
-    padding: 0px;
-    font-family: "Tilt Neon", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    overflow-x: hidden;
+  background-color: #282C33;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Tilt Neon", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
-    width: 2px;
-  }
+  width: 2px;
+}
 
 body::-webkit-scrollbar-track {
-    background: #282C33;
-  }
+  background: #282C33;
+}
 
-  body::-webkit-scrollbar-thumb {
-    background-color: rgba(255, 0, 0, 0.644);
-    border-radius: 20px;
-  }
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 0, 0, 0.644);
+  border-radius: 20px;
+}
 
 p,
 h1 {
-    color: white;
+  color: white;
 }
 
 b {
-    color: red;
+  color: red;
+}
+
+button {
+  background-color: #282C33;
+  color: white;
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  font-family: "Tilt Neon", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  border: solid red 1px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+button:hover {
+  background-color: red;
+  transition: 1s;
 }

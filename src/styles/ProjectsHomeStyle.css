@@ -1,0 +1,8 @@
+.project-home-title-main {
+    display: flex;
+    background-color: red;
+}
+
+.project-home-title-main hr {
+    width: 40vw;
+}

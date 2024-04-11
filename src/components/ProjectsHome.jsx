@@ -4,7 +4,10 @@ function ProjectsHome() {
 
     return (
         <section>
-            <h1><b>#</b>Projetos</h1>
+            <section className="project-home-title-main">
+                <h1><b>#</b>Projetos</h1>
+                <hr />
+            </section>
             {projectsHomeMock.map((e) => (
                 <section>
                     <h1>{e.name}</h1>
