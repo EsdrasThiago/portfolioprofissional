@@ -1,8 +1,72 @@
+.project-home-main {
+    margin-bottom: 200px;
+}
+
 .project-home-title-main {
     display: flex;
-    background-color: red;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-home-title-main section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .project-home-title-main hr {
-    width: 40vw;
+    width: 60vw;
+    height: 1px;
+    border: none;
+    background-color: red;
+}
+
+.project-home-title-main h1 {
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.project-home-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-home-card {
+    border: solid gray 1.5px;
+    width: 20vw;
+    height: 450px;
+}
+
+.project-home-card h1, p, button {
+    margin-left: 20px;
+}
+
+.project-home-hr-bot {
+    border: 1px solid gray;
+}
+
+.project-home-stacks {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.project-home-title-card {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.project-home-description {
+    color: gray;
+}
+
+.project-home-img {
+    width: 20vw;
+    height: 200px;
+    margin-bottom: 0px;
+    border-bottom: solid gray 2px;
+}
+
+.project-home-more {
+    text-decoration: none;
 }

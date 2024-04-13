@@ -13,7 +13,7 @@ function Home() {
       <p className="home-description">Crio sites responsivos onde me aproveito da tecnologia e da criatividade</p>
       <button>Me contate ! !</button>
       <section className="home-geek-text">
-        <p className="home-reigen-phrase">Seja uma boa pessoa</p>
+        <p className="home-reigen-phrase">O verdadeiro encanto é a gentileza, vire uma boa pessoa</p>
         <p className="home-reigen">- Arataka Reigen</p>
       </section>
       <ProjectsHome />

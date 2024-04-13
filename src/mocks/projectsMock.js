@@ -1,21 +1,31 @@
+import digitalLawImage from "../images/digitallaw.png";
+import mobTimerImage from "../images/mobtimer.png";
+import hanoiTowerImage from "../images/hanoitower.png";
+
 const projectsHomeMock = [
     {
-        name: "projeto1",
-        stacks: "tecnologia1, tecnologia2, tecnologia3",
-        description: "descrição1",
-        link: "link1"
+        name: "Mob Timer",
+        stacks: "Javascript React CSS",
+        description: "Um site com cronômetro regressivo",
+        link: "https://esdras-timer.netlify.app/",
+        image: mobTimerImage,
+        repository: ""
     },
     {
-        name: "projeto2",
-        stacks: "tecnologia1, tecnologia2, tecnologia3",
-        description: "descrição2",
-        link: "link1"
+        name: "Hanoi Tower",
+        stacks: "Javascript React CSS",
+        description: "Jogo da torre de Hanoi feito em site",
+        link: "https://hanoitower.vercel.app/",
+        image: hanoiTowerImage,
+        repository: ""
     },
     {
-        name: "projeto3",
-        stacks: "tecnologia1, tecnologia2, tecnologia3",
-        description: "descrição3",
-        link: "link1"
+        name: "DigitalLaw",
+        stacks: "Javascript React CSS",
+        description: "Blog que contém contéudos de advocacia",
+        link: "https://digitallaw.vercel.app/",
+        image: digitalLawImage,
+        repository: ""
     }
 ]
 
