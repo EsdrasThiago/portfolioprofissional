@@ -1,0 +1,41 @@
+.about-me-home-main * {
+ margin: 0px;
+}
+
+.about-me-home-title {
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.about-me-home-title hr {
+    width: 70vw;
+    height: 1px;
+    margin-left: 0px;
+    border: none;
+    background-color: red;
+}
+
+.about-me-home-title h1 {
+    font-size: 30px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.about-me-home-text-main {
+    width: 600px;
+    font-size: 20px;
+}
+
+.about-me-home-text-main p {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.about-me-home-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom: 200px;
+}

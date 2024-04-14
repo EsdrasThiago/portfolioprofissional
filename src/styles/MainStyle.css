@@ -40,7 +40,6 @@ button {
   height: 40px;
   font-size: 20px;
   font-family: "Tilt Neon", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
   border: solid red 1px;
