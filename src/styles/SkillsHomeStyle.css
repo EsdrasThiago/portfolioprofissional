@@ -1,0 +1,60 @@
+.skill-home-title {
+    display: flex;
+    align-items: center;
+}
+
+.skill-home-title hr {
+    width: 80vw;
+    height: 1px;
+    margin-left: 0px;
+    border: none;
+    background-color: red;
+}
+
+.skill-home-title h1 {
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.skills-home-cards {
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    gap: 1vw;
+    align-items: flex-start;
+    /* border: solid red 3px; */
+    justify-content: flex-start;
+}
+
+
+.skills-home-card {
+    width: 200px;
+    border: solid 1px white;
+}
+
+.skills-home-card hr {
+    color: gray;
+}
+
+.skills-home-card h1 {
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.skills-home-text {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    /* border: solid red 1px; */
+    width: 180px; 
+}
+
+.skills-home-text p {
+    color: gray;
+    margin: 2px;
+    margin-bottom: 10px;
+    /* margin-right: 5px; */
+}

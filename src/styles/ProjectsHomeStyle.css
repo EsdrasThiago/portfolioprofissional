@@ -32,7 +32,7 @@
 }
 
 .project-home-card {
-    border: solid gray 1.5px;
+    border: solid white 1.5px;
     width: 20vw;
     height: 450px;
 }
@@ -42,7 +42,7 @@
 }
 
 .project-home-hr-bot {
-    border: 1px solid gray;
+    border: 1px solid white;
 }
 
 .project-home-stacks {
@@ -64,7 +64,7 @@
     width: 20vw;
     height: 200px;
     margin-bottom: 0px;
-    border-bottom: solid gray 2px;
+    border-bottom: solid white 2px;
 }
 
 .project-home-more {
