@@ -1,0 +1,19 @@
+.project-main {
+    margin: auto;
+    width: 80vw;
+}
+
+.project-title-main h1 {
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+.complete-projects-main-title {
+    margin-left: 15px;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.works-space {
+    margin-bottom: 100px;
+}
